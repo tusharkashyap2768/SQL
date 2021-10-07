@@ -1,0 +1,26 @@
+Create :-
+
+create table employe
+(
+Id int,
+name varchar(20),
+address varchar(20)
+);
+desc employe
+...............................................
+Alter :-
+create table employe
+(
+Id int,
+name varchar(20),
+address varchar(20)
+);
+alter table employe add age int;
+desc employe
+alter table employe drop column address;
+desc employe
+alter table employe modify id varchar(30);
+desc employe
+alter table employe rename column id to rollno;
+desc employe
+.................................................
